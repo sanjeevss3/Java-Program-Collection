@@ -6,19 +6,11 @@ package com.javaprograms;
  *
  */
 
-public final class Zzzzz {
+public class Zzzzz {
 
-	public static void main(String[] args) {
-		String str = "Sanjeev Chaudhary";
-
-		str = str + " ";
-		int length = str.length();
-		int count = 0;
-		for (int i = 0; i < length; i++) {
-			if (str.charAt(i) == ' ') {
-				count++;
-			}
-			System.out.println("No. of words: " + count);
-		}
+	static {
+		System.out.println("static block is invoked");
+		System.exit(0);
 	}
+
 }
