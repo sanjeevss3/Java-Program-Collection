@@ -14,7 +14,7 @@ public class MethodOverloading {
 		System.out.println("Method1");
 	}
 	
-	public void method2(int x) {
+	public void method1(int x) {
 		int a=x;
 		System.out.println("X value= "+a);
 	}
@@ -22,7 +22,7 @@ public class MethodOverloading {
 	public static void main(String[] args) {
 		MethodOverloading obj=new MethodOverloading();
 		obj.method1();
-		obj.method2(10);
+		obj.method1(30);
 
 	}
 
