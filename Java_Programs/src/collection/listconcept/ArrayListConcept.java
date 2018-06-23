@@ -13,8 +13,7 @@ import java.util.Iterator;
 // ArrayList can contain duplicate values/elements
 // It maintain insertion order.
 // It is not synchronized (not thread safe).
-// Allows random access to fetch the element because it stores the values on the
-// basis of indexes.
+// Allows random access to fetch the element because it stores the values on the basis of indexes.
 
 public class ArrayListConcept {
 
@@ -71,8 +70,7 @@ public class ArrayListConcept {
 		arr7.add('c');
 		arr7.add(12.3);
 
-		// 3. This is another way to declare the ArrayList if you are not aware about
-		// Datatype.
+		// 3. This is another way to declare the ArrayList if you are not aware about Datatype.
 		ArrayList<E> arr3 = new ArrayList<E>();
 
 		System.out.println("**********************************************************\n");

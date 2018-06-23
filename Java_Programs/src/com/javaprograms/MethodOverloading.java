@@ -23,7 +23,6 @@ public class MethodOverloading {
 		MethodOverloading obj=new MethodOverloading();
 		obj.method1();
 		obj.method1(30);
-
 	}
 
 }
