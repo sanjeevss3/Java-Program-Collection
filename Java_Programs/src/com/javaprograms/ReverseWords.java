@@ -34,11 +34,9 @@ public class ReverseWords {
 	}
 
 	public static void main(String[] args) {
-		String s1 = "Welcome to geeksforgeeks";
+	
+		String s1 = "I love Java Programming";
 		System.out.println(reverseWords(s1));
-
-		String s2 = "I love Java Programming";
-		System.out.println(reverseWords(s2));
 	}
 
 }
