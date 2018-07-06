@@ -59,26 +59,25 @@ public class LinkedListConcept {
 		System.out.println("*****************Using for look*************");
 		for (int i = 0; i < ll.size(); i++) {
 			System.out.println(ll.get(i));
+		}
+		// advanced for loop
+		System.out.println("*****************Using advanced(for each) for look*************");
+		for (String str : ll) {
+			System.out.println(str);
+		}
 
-			// advanced for loop
-			System.out.println("*****************Using advanced(for each) for look*************");
-			for (String str : ll) {
-				System.out.println(str);
-			}
-
-			// Iterator
-			System.out.println("*****************Using Iterator*************");
-			Iterator<String> it = ll.iterator();
-			while (it.hasNext()) {
-				System.out.println(it.next());
-			}
-			// While loop
-			System.out.println("*****************Using while loop*************");
-			int num = 0;
-			while (ll.size() > num) {
-				System.out.println(ll.get(num));
-				num++;
-			}
+		// Iterator
+		System.out.println("*****************Using Iterator*************");
+		Iterator<String> it = ll.iterator();
+		while (it.hasNext()) {
+			System.out.println(it.next());
+		}
+		// While loop
+		System.out.println("*****************Using while loop*************");
+		int num = 0;
+		while (ll.size() > num) {
+			System.out.println(ll.get(num));
+			num++;
 		}
 	}
 }
