@@ -35,7 +35,7 @@ public class SortAndRemoveDuplicatesUsingCollection {
 	                                                         
 
 	    TreeSet<String> s1 = new TreeSet<String>(al1);     // TreeSet sorts the elements by default
-	     System.out.println("\nSortedSet elements: " + s1);// you can print like this also
+	    System.out.println("\nSortedSet elements: " + s1);// you can print like this also
 	                                                       // if you would like array list back
 	   // ArrayList<String> al3 = new ArrayList<String>(s1);
 	   // System.out.println("\nArrayList without duplicates and in sorted order: " + al3);
