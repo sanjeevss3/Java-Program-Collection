@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 public class ReverseWords {
 	
 	 // Method to reverse words of a String
-	static String reverseWords(String str) {
+	static String reverseWordsmethod(String str) {
 
 		// Specifying the pattern to be searched
 		Pattern pattern = Pattern.compile("\\s");
@@ -36,7 +36,7 @@ public class ReverseWords {
 	public static void main(String[] args) {
 	
 		String s1 = "I love Java Programming";
-		System.out.println(reverseWords(s1));
+		System.out.println(reverseWordsmethod(s1));
 	}
 
 }
