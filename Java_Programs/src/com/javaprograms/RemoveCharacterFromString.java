@@ -20,7 +20,7 @@ public class RemoveCharacterFromString {
 
 			System.out.println("String after replacing all small letters = "+str.replaceAll("([a-z])", ""));
 			
-			System.out.println("String after replacing all digits = "+str.replaceAll("([123])", ""));
+			System.out.println("String after replacing all digits = "+str.replace("123", ""));
 		}
 
 	}
