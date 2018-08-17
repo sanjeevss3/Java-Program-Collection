@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 
 public class ReverseWords {
 	
-	 // Method to reverse words of a String
+
 	static String reverseWordsmethod(String str) {
 
 		// Specifying the pattern to be searched
