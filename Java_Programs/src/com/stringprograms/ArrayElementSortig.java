@@ -27,7 +27,7 @@ public class ArrayElementSortig {
 		} */
 		
 		//No input from the Keyboard
-		int a[]= {3,4,2,5,9,6};
+		int a[]= {3,4,2,5,6,9,6};
 		n=a.length;
 		for (int i = 0; i < n; i++) {
 			for (int j = i + 1; j < n; j++) {

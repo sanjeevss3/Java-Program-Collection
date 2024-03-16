@@ -3,7 +3,8 @@ package com.stringprograms;
 public class StringDuplicateCharacter {
 
 	public static void main(String[] args) {
-		String str=new String("automation");
+		
+		String str="automation";
 		int count=0; 
 		char[] ch=str.toCharArray();
 		for(int i=0; i<ch.length; i++) {
