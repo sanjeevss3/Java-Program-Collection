@@ -22,7 +22,7 @@ public class ReverseWords {
 //==========================================================================================
 
 		// This code is for to reverse the word of a sentence.
-		String s[] = "I stay in Bangalore".split(" ");
+		String[] s = "Bengaluru is silicon city".split(" ");
 		String ans = "";
 		for (int i = s.length - 1; i >= 0; i--) {
 			ans += s[i] + " ";
