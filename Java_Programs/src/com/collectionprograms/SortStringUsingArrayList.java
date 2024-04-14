@@ -32,6 +32,7 @@ public class SortStringUsingArrayList {
 		for(String counter : arrlist) {
 			System.out.println(counter);
 		}
+			
 		
 		/* Sorting in decreasing order*/
 		   Collections.sort(arrlist, Collections.reverseOrder());
