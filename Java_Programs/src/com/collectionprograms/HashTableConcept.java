@@ -27,11 +27,11 @@ public class HashTableConcept {
 
 		Hashtable h2 = new Hashtable();
 		h2 = (Hashtable) h1.clone();
-		System.out.println("Values form h1:  " + h1);
+		System.out.println("Values from h1:  " + h1);
 		System.out.println("Values from h2:  " + h2);
 
 		h1.clear(); // it will clear the all values stored in h1.
-		System.out.println("\nValues form h1:  " + h1);
+		System.out.println("\nValues from h1:  " + h1);
 		System.out.println("Values from h2:  " + h2);
 
 		// Contains method

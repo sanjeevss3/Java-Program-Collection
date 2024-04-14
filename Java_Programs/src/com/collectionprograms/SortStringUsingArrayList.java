@@ -28,7 +28,7 @@ public class SortStringUsingArrayList {
 		
 		Collections.sort(arrlist);
 		
-		System.out.println("\n Numbers after sorting");
+		System.out.println("\nNumbers after sorting");
 		for(String counter : arrlist) {
 			System.out.println(counter);
 		}
@@ -36,7 +36,7 @@ public class SortStringUsingArrayList {
 		/* Sorting in decreasing order*/
 		   Collections.sort(arrlist, Collections.reverseOrder());
 		   
-		   System.out.println("\n Numbers after sorting in Descending Order");
+		   System.out.println("\nNumbers after sorting in Descending Order");
 			for(String counter : arrlist) {
 				System.out.println(counter);
 			}
