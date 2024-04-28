@@ -39,10 +39,10 @@ public class ArrayElementSortig {
 			}
 		}
 		System.out.print("Ascending Order:");
-		for (int i = 0; i < n - 1; i++) {
-			System.out.print(a[i] + ",");
+		for (int i = 0; i < n-1; i++) {
+			System.out.print(a[i] + ", ");
 		}
-		System.out.print(a[n - 1]);
+		System.out.print(a[n - 1]); //This code is used to do not print , at end.
 
 	}
 
