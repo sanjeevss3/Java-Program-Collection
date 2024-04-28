@@ -1,4 +1,4 @@
-package com.stringprograms;
+	package com.stringprograms;
 
 import java.util.regex.Pattern;
 
@@ -23,11 +23,11 @@ public class ReverseWords {
 
 		// This code is for to reverse the word of a sentence.
 		String[] s = "Bengaluru is silicon city".split(" ");
-		String ans = "";
+
 		for (int i = s.length - 1; i >= 0; i--) {
-			ans += s[i] + " ";
+			System.out.print(s[i] + " ");
 		}
-		System.out.println(ans);
+		//System.out.println(ans);
 	}
 
 }
