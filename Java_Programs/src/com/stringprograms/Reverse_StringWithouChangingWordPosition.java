@@ -1,7 +1,5 @@
 package com.stringprograms;
 
-import java.util.Scanner;
-
 /**
  *
  * @author Sanjeev Chaudhary 
@@ -14,12 +12,12 @@ public class Reverse_StringWithouChangingWordPosition {
 
 	public static void main(String[] args) {
 
-		String str = "Welcome to Automation Testing";
-		String arr[] = str.split(" ");
+		String[] str = "Welcome to Automation Testing".split(" ");
+		//String arr[] = str.split(" ");
 		
-		for (int i = 0; i < arr.length; i++) {
-			for (int j = arr[i].length() - 1; j >= 0; j--) {
-				System.out.print(arr[i].charAt(j));
+		for (int i = 0; i < str.length; i++) {
+			for (int j = str[i].length() - 1; j >= 0; j--) {
+				System.out.print(str[i].charAt(j));
 			}
 		System.out.print(" ");
 		}

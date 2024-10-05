@@ -12,7 +12,7 @@ public class WiproSortArray {
 	
 	public static void main(String[] args) {
 		
-	int[] arr={2, 1, 2, 10, 5, ' ', 19, 5, 5, ' ', 120};
+	/*int[] arr={2, 1, 2, 10, 5, ' ', 19, 5, 5, ' ', 120};
 
 	//create an arraylist from the array
     // using asList() method of the Arrays class
@@ -29,6 +29,6 @@ public class WiproSortArray {
 
     // add element from set to arraylist
     numbers.addAll(set);
-    System.out.println("ArrayList without duplicate elements: " + numbers);
+  //  System.out.println("ArrayList without duplicate elements: " + numbers); */
   }
 }

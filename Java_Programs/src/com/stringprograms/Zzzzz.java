@@ -1,6 +1,6 @@
 package com.stringprograms;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  *
@@ -9,15 +9,13 @@ import java.util.ArrayList;
  */
 
 class Zzzzz {
+	public static void main(String[] args) {
 
-	public static void main(String args[]) {
+		int[] arr = { 3, 4, 2, 1, 5, 6, 9, 8 };
 
-		int n = 23;
-
-		if (n % 2 == 0) {
-			System.out.println("number is even:" + n);
-		} else {
-			System.out.println("number is odd:" + n);
+		Arrays.sort(arr);
+		for (int num : arr) {
+			System.out.print(num + " ");
 		}
 
 	}
