@@ -6,20 +6,24 @@ package com.stringprograms;
  *
  */
 
-class Zzzzz {
+public class StringReverseWordAndSumOfDigit {
+
 	public static void main(String[] args) {
 
 		String input = "Sa2nj4eev T5es6ter";
 
 		String letters = input.replaceAll("[^a-zA-Z ]", "");
-
 		System.out.println("letters::: " + letters);
 
 		String digit = input.replaceAll("[^0-9 ]", "");
 		System.out.println("digit::: " + digit);
 
+		// Word reverse
 		String[] words = letters.split(" ");
-		System.out.println(words[1] + " " + words[0]);
+		// System.out.println(words[1] + " " + words[0]);
+		for (int i = words.length - 1; i >= 0; i--) {
+			System.out.print(words[i] + " ");
+		}
 
 		// Sum up the digits
 		String[] numbers = digit.split(" ");
@@ -30,7 +34,7 @@ class Zzzzz {
 
 		// Calculate the sum
 		int sum = num1 + num2;
-		System.out.println("Output: " + sum);
+		System.out.println("\nSum of numbers: " + sum);
 
 	}
 }
