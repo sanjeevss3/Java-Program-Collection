@@ -70,9 +70,10 @@ public class ArrayListConcept {
 		arr7.add('c');
 		arr7.add(12.3);
 
-		// 3. This is another way to declare the ArrayList if you are not aware about Datatype.
+		// 3. This is another way to declare the ArrayList if you are not aware about
+		// Datatype.
 		ArrayList<E> arr3 = new ArrayList<E>();
-
+		// arr3.add(3);
 		System.out.println("**********************************************************\n");
 
 		// 4. Call User defined datatypes.
@@ -118,15 +119,13 @@ public class ArrayListConcept {
 		for (int i = 0; i < arr5.size(); i++) {
 			System.out.println(arr5.get(i));
 		}
-		
-		
+
 		System.out.println("------------------------------------------------------------\n");
 
 		arr5.retainAll(arr6); // retainAll()
 		for (int i = 0; i < arr5.size(); i++) {
-			System.out.println("RetainAll methods data: " +arr5.get(i));
+			System.out.println("RetainAll methods data: " + arr5.get(i));
 		}
-
 
 		System.out.println("------------------------------------------------------------\n");
 
@@ -134,7 +133,6 @@ public class ArrayListConcept {
 		for (int i = 0; i < arr5.size(); i++) {
 			System.out.println(arr5.get(i));
 
-			
 		}
 	}
 

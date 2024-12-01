@@ -1,5 +1,7 @@
 package com.stringprograms;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Sanjeev Chaudhary https://github.com/sanjeevss3/
@@ -9,28 +11,23 @@ package com.stringprograms;
 class Zzzzz {
 	public static void main(String[] args) {
 
-		String input = "Sa2nj4eev T5es6ter";
+		ArrayList arr = new ArrayList<>();
+		arr.add(1);
+		arr.add("Sanjeev");
+		arr.add(1.5);
 
-		String letters = input.replaceAll("[^a-zA-Z ]", "");
+		for (int i = 0; i < arr.size(); i++) {
+			System.out.println(arr.get(i));
+		}
 
-		System.out.println("letters::: " + letters);
+		ArrayList<String> arr1 = new ArrayList<String>();
+		arr1.add("Kumar");
+		arr1.add("Chaudhary");
 
-		String digit = input.replaceAll("[^0-9 ]", "");
-		System.out.println("digit::: " + digit);
-
-		String[] words = letters.split(" ");
-		System.out.println(words[1] + " " + words[0]);
-
-		// Sum up the digits
-		String[] numbers = digit.split(" ");
-
-		// Parse the two numbers as integers
-		int num1 = Integer.parseInt(numbers[0]);
-		int num2 = Integer.parseInt(numbers[1]);
-
-		// Calculate the sum
-		int sum = num1 + num2;
-		System.out.println("Output: " + sum);
+		for (int i = 0; i < arr1.size(); i++) {
+			System.out.println(arr1.get(i));
+		}
 
 	}
+
 }
