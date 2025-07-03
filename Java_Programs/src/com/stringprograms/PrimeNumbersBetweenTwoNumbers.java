@@ -6,10 +6,10 @@ package com.stringprograms;
  *
  */
 
-public class PrimeNumbers {
+public class PrimeNumbersBetweenTwoNumbers {
 	public static void main(String[] args) {
 
-		int num = 30, count;
+		int num = 100, count;
 		System.out.println("Prime number between 10 to 30 are: ");
 		for (int i = 10; i <= num; i++) {
 			count = 0;
@@ -19,8 +19,9 @@ public class PrimeNumbers {
 					break;
 				}
 			}
-			if (count == 0)
+			if (count == 0) {
 				System.out.print(i + " ");
+			}
 		}
 	}
 }

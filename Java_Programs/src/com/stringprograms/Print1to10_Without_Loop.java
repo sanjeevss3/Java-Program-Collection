@@ -2,8 +2,7 @@ package com.stringprograms;
 
 /**
  *
- * @author Sanjeev Chaudhary 
- * https://github.com/sanjeevss3/
+ * @author Sanjeev Chaudhary https://github.com/sanjeevss3/
  *
  */
 

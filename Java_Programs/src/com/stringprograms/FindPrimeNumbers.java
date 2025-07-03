@@ -14,7 +14,7 @@ public class FindPrimeNumbers {
 		System.out.print("Enter any number which you want to verify whether it is a prime number or not :");
 		Scanner s = new Scanner(System.in);
 		j = s.nextInt();
-		for (i = 2; i < j/2; i++) {
+		for (i = 2; i < j / 2; i++) {
 			if (j % i == 0) {
 				flag = 0;
 				break;

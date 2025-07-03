@@ -1,7 +1,5 @@
 package com.stringprograms;
 
-import java.util.Scanner;
-
 /**
  *
  * @author Sanjeev Chaudhary https://github.com/sanjeevss3/
