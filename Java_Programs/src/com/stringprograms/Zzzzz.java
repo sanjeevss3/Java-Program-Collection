@@ -1,24 +1,31 @@
 package com.stringprograms;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Sanjeev Chaudhary https://github.com/sanjeevss3/
  *
  */
-class MyException extends Exception {
-	public MyException(String str) {
-		super(str);
-	}
-
-}
 
 public class Zzzzz {
-	public static void main(String args[]) {
-		try {
-			throw new MyException("MyException Called");
-		} catch (MyException ex) {
-			System.out.println("MyException caught");
-			System.out.print(ex.getMessage());
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("Enter the strting");
+		String str = scanner.nextLine();
+
+		String output = caseTitle(str);
+		System.out.println(output);
+	}
+
+	public static String caseTitle(String str) {
+		if (str == null || str.isEmpty()) {
+			return str;
 		}
+		str = str.toLowerCase();
+		return Character.toUpperCase(str.charAt(0)) + str.substring(1);
+		// return Character.toUpperCase(str.charAt(0)) + str.substring(1);
 	}
 }
